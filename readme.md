@@ -4,7 +4,7 @@ untuk mendeklarasikan variabel di GO, maka ketika di deklarasi, tipe data yang d
 
 untuk mendeklarasikan sebuah variabel adalah dengan menggunakan keyword `var` diikuti nama variabel dan tipe data.
 
-skema penggunaan keyword `var`
+1. skema penggunaan keyword `var`
 
 ```go
 var <nama-variabel> <tipe-data>
@@ -108,3 +108,9 @@ keyword ini hanya bisa digunakan untuk pembuatan beberapa jenis variabel saja, y
 1. channel
 2. slice
 3. map
+
+2. konstanta
+
+merupakan jenis variabel yang tidak bisa diubah nilainya, inisialisasi nilai hanya bisa dilakukan di awal saat pendeklarasian variabel.
+
+penggunaan atau penerapa variabel konstanta sama seperti penerapan variabel dengan menggunakan keyword `var` yang membedakan ialah hanya perlu mengganti keyword `var` dengan `const`.
